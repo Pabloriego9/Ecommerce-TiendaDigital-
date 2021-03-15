@@ -186,6 +186,5 @@ function cargarCarritoDeLocalStorage () {
 $botonVaciar.addEventListener('click', vaciarCarrito);
 
 function finalizarCompra(){
-    alert('Gracias por confiar en Mucha, enseguida sera redirigido a la pagina de pago');
     vaciarCarrito();
 }
